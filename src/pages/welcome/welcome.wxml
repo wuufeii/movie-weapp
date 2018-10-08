@@ -1,0 +1,8 @@
+<view class='container'>
+  <image class="avatar" src='/images/avatar.png'></image>
+  <text class="name">
+    <text style='color:#405f80;'>Hello</text>,邬飞</text>
+  <view class="go-container">
+    <text class='go'>开启小程序之旅</text>
+  </view>
+</view>
