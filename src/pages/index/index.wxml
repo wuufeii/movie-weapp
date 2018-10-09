@@ -1,0 +1,16 @@
+<view>
+  <swiper indicator-dots='true'
+          autoplay='true'
+          indicator-color='#fff'
+          indicator-active-color="#00B9F4">
+    <swiper-item>
+      <image src='/images/swiper-01.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/swiper-02.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/swiper-03.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>

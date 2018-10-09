@@ -1,6 +1,8 @@
 {
+  "cloud": true,
   "pages": [
-  "pages/welcome/welcome"
+    "pages/index/index",
+    "pages/welcome/welcome"
   ],
   "window": {
     "backgroundTextStyle": "light",
