@@ -66,8 +66,35 @@ Page({
         "title": "洛奇"
       }
     ];
+    var tv = [
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/100.jpg",
+        "title": "好戏一出"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/101.gif",
+        "title": "明鸿传"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/102.jpg",
+        "title": "舌害"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/103.jpg",
+        "title": "苏茉儿传奇"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/104.jpg",
+        "title": "等到烟暖🐟收"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/105.jpg",
+        "title": "人间规则"
+      }
+    ]
     this.setData({
-      movies:movies
+      movies:movies,
+      tv: tv
     })
   },
 

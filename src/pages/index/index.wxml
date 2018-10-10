@@ -18,6 +18,16 @@
         <text>{{item.title}}</text>
       </view>
     </view>
+    <view class='movie-title'>
+      <view class='icon icon-movie'></view>
+      <text>电视剧</text>
+    </view>
+    <view class='movie-content'>
+      <view class='movie-item' wx:for='{{tv}}' wx:key="item.imgUrl" wx:for-item="item">
+        <image src="{{item.imgUrl}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </view>
   </view>
   
 </view>
