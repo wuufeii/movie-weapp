@@ -1,5 +1,5 @@
 {
-  "window": {
-    "navigationBarTitleText": "邬飞的小程序"
-  }
+  "navigationBarBackgroundColor": "#3ba4ab",
+  "navigationBarTitleText": "首页"
+
 }

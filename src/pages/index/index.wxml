@@ -3,14 +3,21 @@
           autoplay='true'
           indicator-color='#fff'
           indicator-active-color="#00B9F4">
-    <swiper-item>
-      <image src='/images/swiper-01.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='/images/swiper-02.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='/images/swiper-03.jpg'></image>
-    </swiper-item>
+      <swiper-item wx:for="{{swiper}}" wx:for-item="item" wx:key="item">
+        <image src="{{item}}"></image>
+      </swiper-item>
   </swiper>
+  <view class='movie-box'>
+    <view class='movie-title'>
+      <view class='icon icon-movie'></view>
+      <text>电影</text>
+    </view>
+    <view class='movie-content'>
+      <view class='movie-item' wx:for='{{movies}}' wx:key="item.imgUrl" wx:for-item="item">
+        <image src="{{item.imgUrl}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+  
 </view>

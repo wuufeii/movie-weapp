@@ -5,3 +5,49 @@ swiper-item>image {
   width: 100%;
   height: 100%;
 }
+.movie-box {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  background-image: url('https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/icon/channel-icon.png');
+    background-repeat: no-repeat;
+    background-size: 216px 216px;
+    width: 28px;
+    height: 25px;
+    display: inline-block;
+}
+.icon-movie {
+  background-position: -76px -5px;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+.movie-title {
+  margin: 10px 0 5px 10px;
+  height: 30px;
+  position: relative;
+}
+.movie-title>text {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  left: 35px;
+  top: 0;
+}
+.movie-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+.movie-item>image {
+  display: block;
+  width: 245rpx;
+  height: 330rpx;
+  padding-right: 5rpx;
+}
+.movie-item>text {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
