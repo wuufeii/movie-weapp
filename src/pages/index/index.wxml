@@ -19,13 +19,26 @@
       </view>
     </view>
     <view class='movie-title'>
-      <view class='icon icon-movie'></view>
+      <view class='icon icon-tv'></view>
       <text>电视剧</text>
     </view>
     <view class='movie-content'>
       <view class='movie-item' wx:for='{{tv}}' wx:key="item.imgUrl" wx:for-item="item">
         <image src="{{item.imgUrl}}"></image>
         <text>{{item.title}}</text>
+      </view>
+    </view>
+    <view class='movie-title'>
+      <view class='icon icon-tv'></view>
+      <text>综艺</text>
+    </view>
+    <view class='movie-content'>
+      <view class='movie-item item-3' wx:for='{{variety}}' wx:key="item.imgUrl" wx:for-item="item">
+        <image src="{{item.imgUrl}}"></image>
+        <text class='type'>{{item.type}}</text>
+        <text class='time'>{{item.time}}</text>
+        <text class='title'>{{item.title}}</text>
+        <text class='detail'>{{item.detail}}</text>
       </view>
     </view>
   </view>

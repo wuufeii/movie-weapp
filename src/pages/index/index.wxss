@@ -1,3 +1,20 @@
+.icon {
+  background-image: url('https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/icon/channel-icon.png');
+    background-repeat: no-repeat;
+    background-size: 216px 216px;
+    width: 28px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+.icon-movie {
+  background-position: -76px -5px;
+}
+.icon-tv {
+  background-position: -40px -4px;
+}
 swiper {
   height: 400rpx;
 }
@@ -8,20 +25,6 @@ swiper-item>image {
 .movie-box {
   display: flex;
   flex-direction: column;
-}
-.icon {
-  background-image: url('https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/icon/channel-icon.png');
-    background-repeat: no-repeat;
-    background-size: 216px 216px;
-    width: 28px;
-    height: 25px;
-    display: inline-block;
-}
-.icon-movie {
-  background-position: -76px -5px;
-  position: absolute;
-  top: 0;
-  left: 0; 
 }
 .movie-title {
   margin: 10px 0 5px 10px;
@@ -49,5 +52,43 @@ swiper-item>image {
 .movie-item>text {
   padding-top: 5px;
   font-size: 14px;
-  color: #333;
+  color: #111;
+  display: block;
+  width: 250rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item-3 {
+  position: relative;
+}
+.item-3>image {
+  width: 372rpx;
+  height: 210rpx;
+  padding-right: 3rpx;
+}
+.item-3>text {
+  width: 375rpx;
+}
+.item-3>.type {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #fff;
+  font-size: 12px;
+  width: 35px;
+  height: 12px;
+  line-height: 6px;
+  background-color: #ff6200;
+}
+.item-3>.time {
+  position: absolute;
+  right: 5px;
+  top: 162rpx;
+  color: #fff;
+  font-size: 12px;
+  text-align: right;
+}
+.item-3>.detail {
+  color: #888;
 }

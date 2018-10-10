@@ -85,16 +85,61 @@ Page({
       },
       {
         "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/104.jpg",
-        "title": "等到烟暖🐟收"
+        "title": "等到烟暖雨收第三季"
       },
       {
         "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/105.jpg",
         "title": "人间规则"
       }
+    ];
+    var variety = [
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/200.jpg",
+        "title": "Hi室友",
+        "detail": "宋小宝来袭喜提按摩椅!",
+        "type": "自制",
+        "time": "2018-10-10期"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/201.jpg",
+        "title": "奇葩说·备战间",
+        "detail": "陈铭暴露真心：键盘侠是侠!",
+        "type": "独播",
+        "time": "2018-10-12期"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/202.gif",
+        "title": "咕噔咕噔banana",
+        "detail": "尤长靖吃醋林超泽浮夸称赞",
+        "type": "VIP",
+        "time": "2018-10-16期"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/203.jpg",
+        "title": "梁知·人情观察",
+        "detail": "老梁支招出头鸟如何不挨枪",
+        "type": "自制",
+        "time": "2018-10-10期"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/204.jpg",
+        "title": "中国新说唱·收官之战",
+        "detail": "艾热激情演绎《新三部曲》",
+        "type": "VIP",
+        "time": "2018-10-10期"
+      },
+      {
+        "imgUrl": "https://wuufeii-1257796228.cos.ap-chongqing.myqcloud.com/movie-weapp/movie/105.jpg",
+        "title": "中国好声音",
+        "detail": "刘郡格唯美大气演绎《空城》",
+        "type": "自制",
+        "time": "2018-10-10期"
+      }
     ]
     this.setData({
       movies:movies,
-      tv: tv
+      tv: tv,
+      variety: variety
     })
   },
 
